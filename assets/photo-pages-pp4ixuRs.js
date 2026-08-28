@@ -1,0 +1,1 @@
+function e(e){let t=[];for(let n=0;n<e.length;n+=2)t.push({first:e[n],second:e[n+1]??null});return t}export{e as t};
