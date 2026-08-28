@@ -1,0 +1,1 @@
+var e=e=>Math.min(1,Math.max(0,e));function t(t){return{x:e(t.x/100),y:e(t.y/100),width:e(t.width/100),height:e(t.height/100)}}function n(e){let t=e.width>0?100/e.width:100,n=e.height>0?100/e.height:100,r=e.width<1?e.x/(1-e.width)*100:0,i=e.height<1?e.y/(1-e.height)*100:0;return{backgroundSize:`${t}% ${n}%`,backgroundPosition:`${r}% ${i}%`}}export{t as n,n as t};
